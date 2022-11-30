@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+#pick_content {
+	padding-top: 56px;
+	background-color: #fce8bd;
+}
+#pick_content .title {
+	padding: 20px 0;
+	text-align: center;
+}
+#pick_content .title .ko {
+	font-size: 18px;
+	font-weight: 600;
+}
+#pick_content .title .en {
+	font-size: 13px;
+	color: #363636;
+}
+#pick_content .img {
+	position: relative;
+	width: 60vw;
+	max-width: 350px;
+	left: 50%;
+	transform: translate(-50%);
+	margin-top: 30px;
+	padding: 30px;
+}
+#pick_content .img::before {
+	display: block;
+	content: "";
+	position: absolute;
+	background: url(../img/sandwich/sandwich5_badge.png) no-repeat 0 0 / contain;
+	width: 80px;
+	height: 80px;
+	top: -20px;
+	right: -20px;
+}
+#pick_content .slick-dots {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+#pick_content .slick-dots li {
+	width: 10px;
+	height: 10px;
+	margin: 0 6px;
+	border-radius: 50%;
+	background-color: #a3a3a3;
+	transition: 0.4s;
+}
+#pick_content .slick-dots li.slick-active {
+	background-color: #363636;
+}
+#pick_content .slick-dots li button {
+	display: none;
+}
+#pick_content .desc {
+	padding: 20px 30px;
+	font-size: 14px;
+	text-align: center;
+	word-break: keep-all;
+}
+
+/******************
+  FRESH & TOGETHER
+*******************/
+#fresh {
+	padding: 50px 0;
+	background-color: #fce8bd;
+}
+#together {
+	padding: 30px 0;
+}
+#fresh .heading,
+#together .heading {
+	font-size: 18px;
+	font-weight: 500;
+	text-align: center;
+}
+#fresh .ingredient_wrap,
+#together .item_wrap {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 60px;
+}
+#fresh .ingredient img,
+#together .item img {
+	width: 100px;
+}
+#fresh .ingredient p,
+#together .item p {
+	font-size: 13px;
+	text-align: center;
+}
+#fresh .info {
+	position: relative;
+	width: 80vw;
+	left: 50%;
+	transform: translate(-50%);
+}
+.banner {
+	width: 100%;
+	max-width: 650px;
+}
+#banner .viewmore {
+	margin: 50px 0;
+}

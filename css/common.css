@@ -1,0 +1,222 @@
+@charset "UTF-8";
+
+/*font-family: 'Noto Sans KR', sans-serif;*/
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
+/*font-family: 'Monoton', cursive;*/
+@import url("https://fonts.googleapis.com/css2?family=Monoton&display=swap");
+/*여기어때 -> 이달의 메뉴*/
+@font-face {
+	font-family: "yg-jalnan";
+	src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff")
+		format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+:root {
+	--colorWhite: #ffffff;
+	--colorBlack: #000000;
+	--colorRed: #eb0029;
+	--colorPink: #ef4b80;
+	--colorLorange: #ffbe9e;
+	--colorLyellow: #f3f0a1;
+	--colorLyellowgreen: #c7e995;
+	--colorLgreen: #9be2be;
+	--colorLpink: #fcaebb;
+	--colorLblue: #a5dae8;
+	--colorLpurple: #f1b2dd;
+}
+/**********************************
+	공통 COMMON
+**********************************/
+.hide {
+	display: none;
+}
+.show {
+	display: block;
+}
+
+button.viewmore {
+	position: relative;
+	width: 150px;
+	left: 50%;
+	transform: translate(-50%);
+	padding: 10px 15px;
+	border: 2px solid var(--colorBlack);
+	border-radius: 999px;
+	background-color: transparent;
+}
+button.viewmore a {
+	display: block;
+	font-size: 15px;
+	font-weight: 600;
+	color: var(--colorBlack);
+}
+button.viewmore:hover {
+	border: 2px solid var(--colorRed);
+	background-color: var(--colorRed);
+}
+button.viewmore:hover a {
+	color: var(--colorWhite);
+}
+
+/**********************************
+	헤더 HEADER
+**********************************/
+header {
+	position: fixed;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	height: 56px;
+	padding: 5px 10px;
+	background-color: #fff;
+	box-shadow: 0 0 10px #eee;
+	z-index: 333;
+}
+header h1 img {
+	width: 150px;
+	margin-top: -17px;
+}
+.store {
+	display: flex;
+	align-items: center;
+}
+.store .store_btn {
+	width: 75px;
+	height: 30px;
+	border-radius: 999px;
+	background-color: #000000;
+	font-size: 14px;
+	line-height: 30px;
+	text-align: center;
+	color: white;
+}
+.store i {
+	margin-left: 20px;
+	font-size: 40px;
+	color: #000000;
+}
+
+/*** GNB ***/
+#gnb {
+	display: none;
+	position: fixed;
+	width: 100%;
+	background-color: #000000;
+	z-index: 999;
+}
+#gnb header {
+	display: flex;
+	justify-content: space-between;
+	height: 56px;
+	padding: 5px 10px;
+	background-color: var(--colorBlack);
+	box-shadow: none;
+	line-height: 56px;
+}
+#gnb h1 {
+	width: 160px;
+	margin-left: -7px;
+}
+#gnb h1 img {
+	width: 100%;
+}
+#gnb .right {
+	display: flex;
+}
+#gnb .lang {
+	display: flex;
+	margin-top: -5px;
+	font-size: 20px;
+	line-height: 56px;
+}
+#gnb .lang p {
+	color: #949494;
+}
+#gnb .lang span {
+	margin: 0 6px;
+	color: #949494;
+}
+#gnb .gnb_close {
+	margin-top: -7px;
+	margin-left: 20px;
+	font-size: 51px;
+	line-height: 56px;
+	color: #f4f4f4;
+}
+#gnb main {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100vh;
+	padding: 20px 40px;
+}
+#gnb .nav {
+	margin-top: 56px;
+}
+#gnb .nav li.up {
+	font-size: 30px;
+	font-weight: 600;
+	line-height: 1.6;
+	color: #fff;
+}
+#gnb .nav li > ul {
+	padding: 10px 0;
+}
+#gnb li.down {
+	padding-left: 25px;
+	line-height: 1.5;
+}
+#gnb .nav li.down a {
+	font-size: 23px;
+	font-weight: 500;
+	color: #fff;
+}
+#gnb .sns_wrap i {
+	margin-right: 15px;
+	padding-bottom: 30px;
+	font-size: 35px;
+	color: #fff;
+}
+
+/**********************************
+	푸터 FOOTE
+**********************************/
+footer {
+	padding: 20px 20px;
+	background-color: #000000;
+}
+footer .top {
+	padding-bottom: 20px;
+	border-bottom: 1px solid #fff;
+}
+footer h1 img {
+	width: 200px;
+}
+footer .sns_wrap i {
+	margin-right: 15px;
+	font-size: 30px;
+	color: #fff;
+}
+footer .top_bottom {
+	margin: 20px 0 0px;
+}
+footer .top_bottom ul {
+	display: flex;
+}
+footer .top_bottom li a {
+	padding: 0 10px;
+	border-right: 1px solid var(--colorWhite);
+	font-size: 13px;
+	color: var(--colorWhite);
+}
+footer .top_bottom li:last-child a {
+	border: none;
+}
+footer .bottom {
+	color: var(--colorWhite);
+	font-size: 13px;
+	line-height: 1.5;
+	padding: 20px 0;
+}

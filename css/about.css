@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+/*********************
+	공통 COMMON
+**********************/
+.intro {
+	padding: 60px 0 40px;
+}
+.intro h2 {
+	margin: 20px 0 10px;
+	text-align: center;
+}
+.intro p {
+	font-size: 14px;
+	text-align: center;
+}
+.about_menu {
+	display: flex;
+	justify-content: center;
+	background-color: #f4f4f4;
+}
+.about_menu li {
+	display: inline;
+}
+.about_menu li a {
+	display: inline-block;
+	padding: 14px;
+	text-align: center;
+	text-decoration: none;
+	color: #000000;
+}
+.about_menu li.active a {
+	text-decoration: underline;
+	color: #eb0029;
+}
+.about_menu li:hover a {
+	text-decoration: underline;
+	color: #eb0029;
+}
+
+/*********************
+	브랜드 BRAND
+**********************/
+#brand_content {
+	margin: 30px 0;
+}
+#brand_content .text_box img {
+	position: relative;
+	width: 70%;
+	left: 50%;
+	transform: translate(-50%);
+}
+#brand_content .text_box img .slick-slide {
+	width: 200px;
+}
+#brand_content .text_box p {
+	margin: 20px;
+	font-size: 14px;
+	text-align: center;
+}
+
+/*********************
+	노티스 NOTICE
+**********************/
+.content {
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+}
+.content a {
+	margin: 10px;
+}
+.content a img {
+	width: 100%;
+}
+.article_wrap {
+	padding: 30px;
+}
+.article_top {
+	margin-top: 56px;
+}
+.article_top .date {
+	padding-bottom: 10px;
+	font-size: 13px;
+}
+.article_top .heading {
+	padding-bottom: 10px;
+	border-bottom: 2px solid black;
+	font-size: 16px;
+	font-weight: 500;
+}
+.article_content .img_box img {
+	width: 100%;
+	padding: 10px 0;
+}
+.article_content .text_box {
+	font-size: 15px;
+}
+.article_bottom {
+	margin: 40px 0 20px;
+	font-size: 13px;
+}
+.article_bottom .prev {
+	display: flex;
+	padding-bottom: 10px;
+	border-bottom: 1px solid black;
+}
+.article_bottom .next {
+	display: flex;
+	padding-top: 10px;
+}
+.article_bottom .prev .arrow,
+.article_bottom .next .arrow {
+	margin-right: 5px;
+}
+.article_bottom .position {
+	min-width: 42px;
+	margin-right: 5px;
+}
+.article_bottom a {
+	display: block;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	color: #000;
+}
+#notice_wrap .viewmore {
+	margin: 30px 0;
+}

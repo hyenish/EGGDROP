@@ -1,0 +1,235 @@
+@charset "UTF-8";
+
+#menu .content li.menu {
+	position: relative;
+}
+#menu .content li.menu .badge {
+	position: absolute;
+	width: 20vw;
+	max-width: 100px;
+	height: 100px;
+	top: 20px;
+	right: 0;
+}
+
+/*******************
+  NEW_BADGE
+*********************/
+.menu_new li.menu:nth-of-type(1) .badge {
+	background: url(../img/new/new1_badge.png) no-repeat 0 0 / contain;
+}
+.menu_new li.menu:nth-of-type(2) .badge {
+	background: url(../img/new/new2_badge.png) no-repeat 0 0 / contain;
+}
+.menu_new li.menu:nth-of-type(3) .badge {
+	background: url(../img/new/new3_badge.png) no-repeat 0 0 / contain;
+}
+.menu_new li.menu:nth-of-type(4) .badge {
+	background: url(../img/new/new4_badge.png) no-repeat 0 0 / contain;
+}
+.menu_new li.menu:nth-of-type(5) .badge {
+	background: url(../img/new/new5_badge.png) no-repeat 0 0 / contain;
+}
+.menu_new li.menu:nth-of-type(6) .badge {
+	background: url(../img/new/new6_badge.png) no-repeat 0 0 / contain;
+}
+.menu_new li.menu:nth-of-type(7) .badge {
+	background: url(../img/new/new7_badge.png) no-repeat 0 0 / contain;
+}
+.menu_new li.menu:nth-of-type(8) .badge {
+	background: url(../img/new/new8_badge.png) no-repeat 0 0 / contain;
+}
+.menu_new li.menu:nth-of-type(9) .badge {
+	background: url(../img/new/new9_badge.png) no-repeat 0 0 / contain;
+}
+
+/*******************
+  CHOICE_BADGE
+*********************/
+.menu_choice li.menu:nth-of-type(1) .badge {
+	background: url(../img/choice/choice1_badge.png) no-repeat 0 0 / contain;
+}
+.menu_choice li.menu:nth-of-type(2) .badge {
+	background: url(../img/choice/choice2_badge.png) no-repeat 0 0 / contain;
+}
+.menu_choice li.menu:nth-of-type(3) .badge {
+	background: url(../img/choice/choice3_badge.png) no-repeat 0 0 / contain;
+}
+.menu_choice li.menu:nth-of-type(4) .badge {
+	background: url(../img/choice/choice4_badge.png) no-repeat 0 0 / contain;
+}
+.menu_choice li.menu:nth-of-type(5) .badge {
+	background: url(../img/choice/choice5_badge.png) no-repeat 0 0 / contain;
+}
+.menu_choice li.menu:nth-of-type(6) .badge {
+	background: url(../img/choice/choice6_badge.png) no-repeat 0 0 / contain;
+}
+.menu_choice li.menu:nth-of-type(7) .badge {
+	background: url(../img/choice/choice7_badge.png) no-repeat 0 0 / contain;
+}
+.menu_choice li.menu:nth-of-type(8) .badge {
+	background: url(../img/choice/choice8_badge.png) no-repeat 0 0 / contain;
+}
+.menu_choice li.menu:nth-of-type(9) .badge {
+	background: url(../img/choice/choice9_badge.png) no-repeat 0 0 / contain;
+}
+.menu_choice li.menu:nth-of-type(10) .badge {
+	background: url(../img/choice/choice10_badge.png) no-repeat 0 0 / contain;
+}
+.menu_choice li.menu:nth-of-type(11) .badge {
+	background: url(../img/choice/choice11_badge.png) no-repeat 0 0 / contain;
+}
+.menu_choice li.menu:nth-of-type(12) .badge {
+	background: url(../img/choice/choice12_badge.png) no-repeat 0 0 / contain;
+}
+.menu_choice li.menu:nth-of-type(13) .badge {
+	background: url(../img/choice/choice13_badge.png) no-repeat 0 0 / contain;
+}
+.menu_choice li.menu:nth-of-type(14) .badge {
+	background: url(../img/choice/choice14_badge.png) no-repeat 0 0 / contain;
+}
+.menu_choice li.menu:nth-of-type(15) .badge {
+	background: url(../img/choice/choice15_badge.png) no-repeat 0 0 / contain;
+}
+.menu_choice li.menu:nth-of-type(16) .badge {
+	background: url(../img/choice/choice16_badge.png) no-repeat 0 0 / contain;
+}
+
+/*******************
+  SANDWICH_BADGE
+*********************/
+.menu_sandwich li.menu:nth-of-type(1) .badge {
+	background: url(../img/sandwich/sandwich1_badge.png) no-repeat 0 0 / contain;
+}
+.menu_sandwich li.menu:nth-of-type(2) .badge {
+	background: url(../img/sandwich/sandwich2_badge.png) no-repeat 0 0 / contain;
+}
+.menu_sandwich li.menu:nth-of-type(3) .badge {
+	background: url(../img/sandwich/sandwich3_badge.png) no-repeat 0 0 / contain;
+}
+.menu_sandwich li.menu:nth-of-type(4) .badge {
+	background: url(../img/sandwich/sandwich4_badge.png) no-repeat 0 0 / contain;
+}
+.menu_sandwich li.menu:nth-of-type(5) .badge {
+	background: url(../img/sandwich/sandwich5_badge.png) no-repeat 0 0 / contain;
+}
+.menu_sandwich li.menu:nth-of-type(6) .badge {
+	background: url(../img/sandwich/sandwich6_badge.png) no-repeat 0 0 / contain;
+}
+.menu_sandwich li.menu:nth-of-type(7) .badge {
+	background: url(../img/sandwich/sandwich7_badge.png) no-repeat 0 0 / contain;
+}
+.menu_sandwich li.menu:nth-of-type(8) .badge {
+	background: url(../img/sandwich/sandwich8_badge.png) no-repeat 0 0 / contain;
+}
+.menu_sandwich li.menu:nth-of-type(9) .badge {
+	background: url(../img/sandwich/sandwich9_badge.png) no-repeat 0 0 / contain;
+}
+.menu_sandwich li.menu:nth-of-type(10) .badge {
+	background: url(../img/sandwich/sandwich10_badge.png) no-repeat 0 0 / contain;
+}
+.menu_sandwich li.menu:nth-of-type(11) .badge {
+	background: url(../img/sandwich/sandwich11_badge.png) no-repeat 0 0 / contain;
+}
+.menu_sandwich li.menu:nth-of-type(12) .badge {
+	background: url(../img/sandwich/sandwich12_badge.png) no-repeat 0 0 / contain;
+}
+.menu_sandwich li.menu:nth-of-type(13) .badge {
+	background: url(../img/sandwich/sandwich13_badge.png) no-repeat 0 0 / contain;
+}
+
+/*******************
+  SIDE_BADGE
+*********************/
+.menu_side li.menu:nth-of-type(1) .badge {
+	background: url(../img/side/side1_badge.png) no-repeat 0 0 / contain;
+}
+.menu_side li.menu:nth-of-type(2) .badge {
+	background: url(../img/side/side2_badge.png) no-repeat 0 0 / contain;
+}
+.menu_side li.menu:nth-of-type(3) .badge {
+	background: url(../img/side/side3_badge.png) no-repeat 0 0 / contain;
+}
+.menu_side li.menu:nth-of-type(4) .badge {
+	background: url(../img/side/side4_badge.png) no-repeat 0 0 / contain;
+}
+.menu_side li.menu:nth-of-type(5) .badge {
+	background: url(../img/side/side5_badge.png) no-repeat 0 0 / contain;
+}
+.menu_side li.menu:nth-of-type(6) .badge {
+	background: url(../img/side/side6_badge.png) no-repeat 0 0 / contain;
+}
+.menu_side li.menu:nth-of-type(7) .badge {
+	background: url(../img/side/side7_badge.png) no-repeat 0 0 / contain;
+}
+.menu_side li.menu:nth-of-type(8) .badge {
+	background: url(../img/side/side8_badge.png) no-repeat 0 0 / contain;
+}
+.menu_side li.menu:nth-of-type(9) .badge {
+	background: url(../img/side/side9_badge.png) no-repeat 0 0 / contain;
+}
+
+/*******************
+  COFFEE_BADGE
+*********************/
+.menu_coffee li.menu:nth-of-type(1) .badge {
+	background: url(../img/coffee/coffee1_badge.png) no-repeat 0 0 / contain;
+}
+.menu_coffee li.menu:nth-of-type(2) .badge {
+	background: url(../img/coffee/coffee2_badge.png) no-repeat 0 0 / contain;
+}
+.menu_coffee li.menu:nth-of-type(3) .badge {
+	background: url(../img/coffee/coffee3_badge.png) no-repeat 0 0 / contain;
+}
+.menu_coffee li.menu:nth-of-type(4) .badge {
+	background: url(../img/coffee/coffee4_badge.png) no-repeat 0 0 / contain;
+}
+.menu_coffee li.menu:nth-of-type(5) .badge {
+	background: url(../img/coffee/coffee5_badge.png) no-repeat 0 0 / contain;
+}
+.menu_coffee li.menu:nth-of-type(6) .badge {
+	background: url(../img/coffee/coffee6_badge.png) no-repeat 0 0 / contain;
+}
+.menu_coffee li.menu:nth-of-type(7) .badge {
+	background: url(../img/coffee/coffee7_badge.png) no-repeat 0 0 / contain;
+}
+.menu_coffee li.menu:nth-of-type(8) .badge {
+	background: url(../img/coffee/coffee8_badge.png) no-repeat 0 0 / contain;
+}
+.menu_coffee li.menu:nth-of-type(9) .badge {
+	background: url(../img/coffee/coffee9_badge.png) no-repeat 0 0 / contain;
+}
+.menu_coffee li.menu:nth-of-type(10) .badge {
+	background: url(../img/coffee/coffee10_badge.png) no-repeat 0 0 / contain;
+}
+.menu_coffee li.menu:nth-of-type(11) .badge {
+	background: url(../img/coffee/coffee11_badge.png) no-repeat 0 0 / contain;
+}
+.menu_coffee li.menu:nth-of-type(12) .badge {
+	background: url(../img/coffee/coffee12_badge.png) no-repeat 0 0 / contain;
+}
+.menu_coffee li.menu:nth-of-type(13) .badge {
+	background: url(../img/coffee/coffee13_badge.png) no-repeat 0 0 / contain;
+}
+.menu_coffee li.menu:nth-of-type(14) .badge {
+	background: url(../img/coffee/coffee14_badge.png) no-repeat 0 0 / contain;
+}
+
+/*******************
+  DRINK_BADGE
+*********************/
+.menu_drink li.menu:nth-of-type(1) .badge {
+	background: url(../img/drink/drink1_badge.png) no-repeat 0 0 / contain;
+}
+.menu_drink li.menu:nth-of-type(2) .badge {
+	background: url(../img/drink/drink2_badge.png) no-repeat 0 0 / contain;
+}
+.menu_drink li.menu:nth-of-type(3) .badge {
+	background: url(../img/drink/drink3_badge.png) no-repeat 0 0 / contain;
+}
+.menu_drink li.menu:nth-of-type(4) .badge {
+	background: url(../img/drink/drink4_badge.png) no-repeat 0 0 / contain;
+}
+.menu_drink li.menu:nth-of-type(5) .badge {
+	background: url(../img/drink/drink5_badge.png) no-repeat 0 0 / contain;
+}
