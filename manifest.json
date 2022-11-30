@@ -1,7 +1,7 @@
 {
-	"name": "pwa용 에그드랍",
-	"short_name": "pwa용 에그드랍",
-	"description": "PWA 연습용 에그드랍 페이지입니다.",
+	"name": "PWA 에그드랍",
+	"short_name": "PWA 에그드랍",
+	"description": "PWA 에그드랍 리디자인 페이지입니다.",
 	"background_color": "#ffffff",
 	"theme_color": "#ffffff",
 	"dir": "auto",
@@ -9,8 +9,8 @@
 	"display": "standalone",
 	"orientation": "any",
 	"scope": "",
-	"start_url": "",
-	"gcm_sender_id": "",
+	"start_url": "https://hyenish.github.io/EGGDROP/",
+	"gcm_sender_id": "https://hyenish.github.io/EGGDROP/",
 	"gcm_user_visible_only": true,
 	"categories": [],
 	"screenshots": [
