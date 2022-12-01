@@ -113,11 +113,14 @@ ul.scrollmenu li:hover a {
 	padding: 10px;
 }
 #menu .content li {
+	/* border: 3px dotted black; */
 	width: 50%;
-	height: 350px;
+	/* height: 300px; */
+	margin: 13px 0;
 	cursor: pointer;
 }
 #menu .content li .photo_box {
+	/* border: 1px solid red; */
 	width: 100%;
 	height: 90%;
 }
@@ -127,6 +130,7 @@ ul.scrollmenu li:hover a {
 	object-fit: contain;
 }
 #menu .content li .text_box {
+	/* border: 1px solid blue; */
 	padding: 0 10px;
 	text-align: center;
 	word-break: keep-all;
@@ -140,10 +144,12 @@ ul.scrollmenu li:hover a {
 **********************************/
 #pick {
 	position: relative;
-	background-color: #fff59c;
+	background-color: #c8e9f1;
 }
 #pick h2 {
-	padding: 26px 0;
+	padding: 20px 0 0;
+	font-size: 25px;
+	font-weight: 500;
 	font-family: "yg-jalnan";
 	text-align: center;
 }
@@ -151,26 +157,29 @@ ul.scrollmenu li:hover a {
 	padding: 20px;
 }
 #pick .content p.en_txt {
-	font-size: 24px;
+	font-size: 25px;
 	font-family: "Monoton", cursive;
+	line-height: 1.1;
 }
 #pick .content p.ko_txt {
-	margin: 20px 0;
+	margin: 20px 0 0px;
+	font-size: 16px;
 }
 #pick .right img.photo {
 	position: absolute;
-	width: 50vw;
+	width: 50%;
 	max-width: 300px;
-	top: 60px;
-	right: 0;
+	top: 50px;
+	right: 30%;
+	transform: translate(50%);
 	z-index: 31;
 }
 #pick .right img.rotate {
 	position: absolute;
 	width: 40vw;
 	max-width: 230px;
-	top: 50px;
-	right: 20px;
+	top: 40px;
+	right: 0px;
 	overflow: hidden;
 
 	animation-name: rotation;
@@ -187,7 +196,9 @@ ul.scrollmenu li:hover a {
 	}
 }
 #pick button {
-	margin: 20px 0;
+	margin: 20px 0 0;
+	left: 0;
+	transform: none;
 }
 
 /**********************************
@@ -248,7 +259,6 @@ ul.scrollmenu li:hover a {
 	background-color: #ffbe9e;
 }
 #insta .text_box {
-	padding-top: 10px;
 	text-align: center;
 }
 #insta p {
@@ -257,9 +267,9 @@ ul.scrollmenu li:hover a {
 }
 #insta .content {
 	display: flex;
+	padding: 10px 0;
 }
 #insta .content img {
 	width: 100%;
-	height: 200px;
 	object-fit: contain;
 }

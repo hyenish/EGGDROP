@@ -38,7 +38,7 @@
 
 button.viewmore {
 	position: relative;
-	width: 150px;
+	width: 130px;
 	left: 50%;
 	transform: translate(-50%);
 	padding: 10px 15px;
@@ -48,7 +48,7 @@ button.viewmore {
 }
 button.viewmore a {
 	display: block;
-	font-size: 15px;
+	font-size: 13px;
 	font-weight: 600;
 	color: var(--colorBlack);
 }

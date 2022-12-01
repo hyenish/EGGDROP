@@ -37,6 +37,9 @@
 	text-decoration: underline;
 	color: #eb0029;
 }
+button.viewmore {
+	margin: 20px 0 50px;
+}
 
 /*********************
 	브랜드 BRAND
