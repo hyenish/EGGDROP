@@ -50,7 +50,7 @@ $(document).ready(function () {
 		slidesToShow: 3,
 		slidesToScroll: 1,
 		autoplay: true,
-		autoplaySpeed: 2000,
+		autoplaySpeed: 1500,
 		prevArrow: false,
 		nextArrow: false,
 	});
@@ -68,7 +68,7 @@ $(document).ready(function () {
 	//BRAND 페이지의 슬릭
 	$("#brand_content .img_box").slick({
 		infinite: false,
-		slidesToShow: 1.3,
+		slidesToShow: 1.5,
 		slidesToScroll: 1,
 		autoplay: true,
 		prevArrow: false,
